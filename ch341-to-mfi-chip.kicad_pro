@@ -78,7 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|81742500|51102500|2c44a484-a364-4a3a-9208-b78df1be01a4|934ad59d-1c50-46f7-852f-89e3530f3a5b",
+          "courtyards_overlap|82520000|51385000|2c44a484-a364-4a3a-9208-b78df1be01a4|934ad59d-1c50-46f7-852f-89e3530f3a5b",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|67125433|54333136|7816b2dd-8233-48cf-8486-0d0752d85695|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -521,9 +525,9 @@
       {
         "bus_width": 12,
         "clearance": 0.1524,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
