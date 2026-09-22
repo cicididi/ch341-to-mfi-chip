@@ -1,10 +1,32 @@
 # ch341-to-mfi-chip
 
-A CH341F to MFI337S3959 board.
+A CH341F to MFI337/341/343 board.
+
+Tested works.
+
+Check release. Pick the one fits you best from releases and make it.
 
 Usage: [xcertplay](https://github.com/shilapi/xcertplay)
 
-![3D Preview](preview.png)
+![3D Preview](assets/USBA-3.3V-CH341-MFI337S3959.png)
+
+## Todo
+
+Some crazy SKUs.
+
+- [x] USBA-3.3v-CH341-MFI337
+- [ ] USBC-3.3v-CH341-MFI337
+- [ ] USBC-5v-CH341-MFI337
+- [ ] USBA-3.3v-CH341-MFI343
+- [ ] USBA-5v-CH341-MFI337
+- [ ] USBC-3.3v-CH341-MFI343
+- [ ] USBA-5v-CH341-MFI343
+- [ ] USBC-5v-CH341-MFI343
+- [ ] USBA-3.3v-CH341-MFI341
+- [ ] USBC-3.3v-CH341-MFI341
+- [ ] USBA-5v-CH341-MFI341
+- [ ] USBC-5v-CH341-MFI341
+
 
 ## Build
 
