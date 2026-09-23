@@ -14,11 +14,11 @@ Usage: [xcertplay](https://github.com/shilapi/xcertplay)
 
 Some crazy SKUs.
 
-- [x] USBA-3.3v-CH341-MFI337
+- [x] USBA-3.3v-CH341-MFI337 (tested, worked)
 - [ ] USBC-3.3v-CH341-MFI337
 - [ ] USBC-5v-CH341-MFI337
+- [x] USBA-5v-CH341-MFI337 (not tested)
 - [ ] USBA-3.3v-CH341-MFI343
-- [ ] USBA-5v-CH341-MFI337
 - [ ] USBC-3.3v-CH341-MFI343
 - [ ] USBA-5v-CH341-MFI343
 - [ ] USBC-5v-CH341-MFI343
@@ -26,6 +26,15 @@ Some crazy SKUs.
 - [ ] USBC-3.3v-CH341-MFI341
 - [ ] USBA-5v-CH341-MFI341
 - [ ] USBC-5v-CH341-MFI341
+
+## Some crezy thing is also happening here
+
+### The Ultra nano version of USBA-5v-CH341-MFI337
+
+|      |      |
+|------|------|
+|![layout Preview](assets/69c2f10d191e3cc7ca41077e4db068af.png)| ![3d Preview2](assets//de09ca6ba0772d43565def6afe4eb63f.png)|
+
 
 
 ## Build

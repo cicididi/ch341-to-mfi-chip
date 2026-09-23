@@ -1589,6 +1589,12 @@
 		(uuid "3904090f-e59d-4b84-954f-4f7b5f0e2d49")
 	)
 	(junction
+		(at 83.82 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "424ada56-5870-4309-8352-bbd7e2c31302")
+	)
+	(junction
 		(at 53.34 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1660,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 73.66) (xy 91.44 73.66)
+			(xy 82.55 73.66) (xy 83.82 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1727,6 +1733,16 @@
 			(type default)
 		)
 		(uuid "1f779cf3-1a40-44f5-a20d-941ffc5bd633")
+	)
+	(wire
+		(pts
+			(xy 83.82 91.44) (xy 92.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212de757-55e2-4430-a9bb-8b838fb1cf4e")
 	)
 	(wire
 		(pts
@@ -2100,6 +2116,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 73.66) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada82318-a8ef-4eb1-aa14-bbe7c46377fc")
+	)
+	(wire
+		(pts
 			(xy 189.23 46.99) (xy 189.23 48.26)
 		)
 		(stroke
@@ -2130,6 +2156,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 73.66) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bd0ce3-a00b-4d2c-b48a-5159ebe0ab64")
+	)
+	(wire
+		(pts
 			(xy 105.41 78.74) (xy 105.41 93.98)
 		)
 		(stroke
@@ -2147,6 +2183,16 @@
 			(type default)
 		)
 		(uuid "cdfa255e-8e7e-4b9a-8209-14d789b04919")
+	)
+	(wire
+		(pts
+			(xy 83.82 83.82) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6787d3-08f7-4c54-8573-3e4dbf621d6b")
 	)
 	(wire
 		(pts
@@ -2632,6 +2678,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 83.82 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "25c8f430-0d9c-4d86-b793-470909bc3eb1")
+		(property "Reference" "R5"
+			(at 86.36 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 86.36 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 82.042 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af7fee8d-d2bf-4112-bf48-8779e6d85dc5")
+		)
+		(pin "1"
+			(uuid "cd29e4e6-09cd-4e2e-af20-e8008313aca1")
+		)
+		(instances
+			(project "ch341-to-mfi-chip"
+				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_A")
 		(at 162.56 71.12 0)
 		(mirror y)
@@ -2663,7 +2791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:917-511A1015B20200"
+		(property "Footprint" "Connector_USB:USB_A_Connfly_DS1098_Horizontal"
 			(at 158.75 72.39 0)
 			(hide yes)
 			(show_name no)

@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2032,
-          "min_island_area": 9.99999999996,
-          "min_thickness": 0.0762,
-          "pad_connection": 1,
+          "min_clearance": 0.0508,
+          "min_island_area": 10.0,
+          "min_thickness": 0.0508,
+          "pad_connection": 3,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.254,
-          "thermal_relief_spoke_width": 0.4064
+          "thermal_relief_gap": 0.15,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -76,16 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|82520000|51385000|2c44a484-a364-4a3a-9208-b78df1be01a4|934ad59d-1c50-46f7-852f-89e3530f3a5b",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|67125433|54333136|7816b2dd-8233-48cf-8486-0d0752d85695|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -157,9 +148,9 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2032,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2032,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -690,7 +681,7 @@
         "uuid": "5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
       }
     ],
-    "used_designators": "U1-3,J1,#PWR1-11,C1-5,R1-5",
+    "used_designators": "U1-3,J1,#PWR1-12,C1-5,R1-5",
     "variants": []
   },
   "sheets": [

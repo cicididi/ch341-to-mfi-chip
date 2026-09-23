@@ -640,164 +640,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LT1083-3.3"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LT1083-3.3"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1083ffe.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "7.5A 20V LDO Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator Fixed 7.5A Positive LDO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?220* TO?263*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LT1083-3.3_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LT1083-3.3_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3V3"
+		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -822,7 +665,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -854,7 +697,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -876,7 +719,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -914,7 +757,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1595,12 +1438,6 @@
 		(uuid "71e79880-2109-4e4c-8a47-a5a6dc9ca7f6")
 	)
 	(junction
-		(at 162.56 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7adf08c2-caa5-4843-add2-8b52bcf62c94")
-	)
-	(junction
 		(at 163.83 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1625,22 +1462,16 @@
 		(uuid "d25839f2-b22a-4036-a940-2086ab4b15f7")
 	)
 	(junction
-		(at 176.53 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d92c1547-b2a0-4719-a4d0-0a1c680ff83c")
-	)
-	(junction
 		(at 105.41 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da865feb-b9a9-4482-8da4-a5e0f69a58ec")
 	)
 	(junction
-		(at 189.23 39.37)
+		(at 152.4 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fa931235-e0ec-4127-8d38-a78b900b489f")
+		(uuid "f2268aa2-0589-4852-b84e-aab736ca2203")
 	)
 	(junction
 		(at 138.43 53.34)
@@ -1810,36 +1641,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 39.37) (xy 168.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3db0dfbf-b168-4c58-a739-ffe59bdff513")
-	)
-	(wire
-		(pts
-			(xy 162.56 48.26) (xy 176.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44226bda-0567-4e0f-b415-899132ccc7e9")
-	)
-	(wire
-		(pts
-			(xy 176.53 48.26) (xy 189.23 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44800d29-cc4a-4412-8d51-f7f339c8e6dc")
-	)
-	(wire
-		(pts
 			(xy 162.56 81.28) (xy 162.56 85.09)
 		)
 		(stroke
@@ -1880,16 +1681,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 48.26) (xy 176.53 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "501a87d5-c354-47f9-b6f9-e1c5e85d8c9c")
-	)
-	(wire
-		(pts
 			(xy 99.06 78.74) (xy 105.41 78.74)
 		)
 		(stroke
@@ -1900,16 +1691,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 39.37) (xy 152.4 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51eb0865-69d7-477e-86e6-5914755a420a")
-	)
-	(wire
-		(pts
 			(xy 143.51 74.93) (xy 143.51 73.66)
 		)
 		(stroke
@@ -1917,6 +1698,16 @@
 			(type default)
 		)
 		(uuid "5afe1cdd-51ce-4eed-a51b-79252ef7ffd9")
+	)
+	(wire
+		(pts
+			(xy 154.94 55.88) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605ec5fd-5a1a-435b-99ff-3f5e4c4ae3bd")
 	)
 	(wire
 		(pts
@@ -2020,13 +1811,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 39.37) (xy 189.23 39.37)
+			(xy 152.4 55.88) (xy 152.4 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9579846b-f469-4b24-98d8-24cb02ae832b")
+		(uuid "80e3c78b-fed0-41bc-aa14-f14b5c8d84a2")
 	)
 	(wire
 		(pts
@@ -2040,16 +1831,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 46.99) (xy 176.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972304ef-1ead-4ca4-a812-626be15f0990")
-	)
-	(wire
-		(pts
 			(xy 138.43 53.34) (xy 134.62 53.34)
 		)
 		(stroke
@@ -2057,16 +1838,6 @@
 			(type default)
 		)
 		(uuid "9d3dabfb-35a8-42a4-a4b9-10c5374ab7d6")
-	)
-	(wire
-		(pts
-			(xy 189.23 39.37) (xy 194.31 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff5c2e8-dae7-4cae-82e8-286191caf850")
 	)
 	(wire
 		(pts
@@ -2100,16 +1871,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 46.99) (xy 189.23 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f7ba75-d104-49fd-8169-2b0f45c90ea5")
-	)
-	(wire
-		(pts
 			(xy 93.98 38.1) (xy 93.98 39.37)
 		)
 		(stroke
@@ -2120,6 +1881,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 55.88) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd573176-ea95-4647-9803-7ce4346e7b8b")
+	)
+	(wire
+		(pts
+			(xy 165.1 55.88) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f41623-6044-4c7b-92c3-3a0c4d39b90f")
+	)
+	(wire
+		(pts
 			(xy 152.4 66.04) (xy 154.94 66.04)
 		)
 		(stroke
@@ -2127,6 +1908,16 @@
 			(type default)
 		)
 		(uuid "c34ac43b-d136-4ea1-944b-599d087c0ce5")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71afdfe-3e5b-41ea-8c5d-89e68b3cd76a")
 	)
 	(wire
 		(pts
@@ -2190,16 +1981,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 39.37) (xy 152.4 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4af8307-1482-48dc-aba2-3568a121fbc0")
-	)
-	(wire
-		(pts
 			(xy 99.06 91.44) (xy 99.06 88.9)
 		)
 		(stroke
@@ -2227,16 +2008,6 @@
 			(type default)
 		)
 		(uuid "ef9528d9-3fcc-4109-9698-f5180792bdee")
-	)
-	(wire
-		(pts
-			(xy 162.56 46.99) (xy 162.56 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f084c206-47a4-4e14-8617-68319b6836fd")
 	)
 	(wire
 		(pts
@@ -2287,84 +2058,6 @@
 			(justify left bottom)
 		)
 		(uuid "72b7b795-f6c0-4ea6-917c-842924453a6c")
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 93.98 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0835b902-e3ab-47f1-983f-25fc3f68f89f")
-		(property "Reference" "#PWR010"
-			(at 93.98 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 93.98 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 93.98 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 93.98 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95b9603d-fbf1-4fe1-9db4-bb71ce17ecf1")
-		)
-		(instances
-			(project "ch341-to-mfi-chip"
-				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2443,88 +2136,6 @@
 			(project "ch341-to-mfi-chip"
 				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 189.23 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1654875a-5fe6-46a7-bce5-ceafe93180a5")
-		(property "Reference" "C1"
-			(at 193.04 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 193.04 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 190.1952 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 189.23 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b151c7b-0a1e-43c5-a597-53a54fcee7bd")
-		)
-		(pin "2"
-			(uuid "caa55ded-c96c-40d2-8ff6-e042312244c9")
-		)
-		(instances
-			(project "ch341-to-mfi-chip"
-				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3042,84 +2653,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "816286d8-59e5-46f8-a66d-66472f83616c")
-		(property "Reference" "#PWR04"
-			(at 176.53 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77a9ae44-add2-4051-9653-c55981072161")
-		)
-		(instances
-			(project "ch341-to-mfi-chip"
-				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 138.43 50.8 180)
 		(unit 1)
 		(body_style 1)
@@ -3386,6 +2919,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 165.1 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9a8fbbc-7dc2-4d02-bdaf-ff56bbd71c50")
+		(property "Reference" "#PWR05"
+			(at 165.1 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1db85732-d890-46f7-bd1a-0e5f96142bc7")
+		)
+		(instances
+			(project "ch341-to-mfi-chip"
+				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 93.98 53.34 0)
 		(unit 1)
@@ -3546,7 +3157,85 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power:+5V")
+		(at 105.41 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4ffd23d-17c2-4141-ace6-0a69ab6ed4cd")
+		(property "Reference" "#PWR011"
+			(at 105.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 105.41 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4de33099-9a81-4b96-bdbc-490b599c5228")
+		)
+		(instances
+			(project "ch341-to-mfi-chip"
+				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 146.05 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -3556,8 +3245,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c437c8c0-3911-47cc-b066-25d908ecfad5")
-		(property "Reference" "#PWR02"
+		(uuid "c8b41940-5fb3-4081-9ea5-e565ded6dadf")
+		(property "Reference" "#PWR012"
 			(at 146.05 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3568,7 +3257,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+5V"
 			(at 146.05 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3578,7 +3267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
+		(property "Footprint" ""
 			(at 146.05 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3600,7 +3289,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 146.05 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3612,12 +3301,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "79c650ae-0489-4c3a-a23f-b2565e3c6f5c")
+			(uuid "69011cb3-6099-44cb-a56d-9a822bdf983c")
 		)
 		(instances
 			(project "ch341-to-mfi-chip"
 				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
-					(reference "#PWR02")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3785,7 +3474,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 43.18 0)
+		(at 158.75 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3794,31 +3483,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cea4c28d-3461-4d64-ae9c-351a97404209")
-		(property "Reference" "C2"
-			(at 166.37 41.9099 0)
+		(uuid "d0363080-0e3a-42a9-ac6d-3d56a904a4cd")
+		(property "Reference" "C1"
+			(at 158.75 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10uF"
-			(at 166.37 44.4499 0)
+			(at 158.75 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 163.5252 46.99 0)
+			(at 162.56 54.9148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 43.18 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3840,7 +3527,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 43.18 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3849,252 +3536,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "b5bbe3ee-7c90-49f5-820a-46f4603c7c86")
 		)
 		(pin "2"
-			(uuid "c8f52a7b-cc86-46ad-91ac-0151caf59342")
-		)
-		(instances
-			(project "ch341-to-mfi-chip"
-				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 194.31 39.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d39c3a6f-a059-42a6-a909-270cfeb6922b")
-		(property "Reference" "#PWR05"
-			(at 190.5 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 198.12 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 194.31 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 194.31 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "e90e802b-b93b-4e59-83cc-6ea4f8538f8d")
 		)
 		(pin "1"
-			(uuid "506a432d-57b1-458f-91cf-397770d0d9fb")
+			(uuid "7a879ba6-7dc7-4536-aa0f-3fdda6dece70")
 		)
 		(instances
 			(project "ch341-to-mfi-chip"
 				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 105.41 93.98 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6cc2c24-a0b4-44b6-9407-2d23d5bca794")
-		(property "Reference" "#PWR011"
-			(at 105.41 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 105.41 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 105.41 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 105.41 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee576d3e-b611-4f12-b0df-402ea1ea2968")
-		)
-		(instances
-			(project "ch341-to-mfi-chip"
-				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 53.34 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8339e23-bbb5-47d7-be3b-8c0d86cd85ff")
-		(property "Reference" "#PWR08"
-			(at 53.34 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 53.34 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0914f1f-8885-4c7d-9153-a42e20ce89a1")
-		)
-		(instances
-			(project "ch341-to-mfi-chip"
-				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
-					(reference "#PWR08")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4183,8 +3635,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LT1083-3.3")
-		(at 176.53 39.37 0)
+		(lib_id "power:+5V")
+		(at 93.98 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4193,41 +3645,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f88caa82-a2ba-4a1d-9140-ca27a61c44d6")
-		(property "Reference" "U2"
-			(at 176.53 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HR1117V-3.3"
-			(at 176.53 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 176.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1083ffe.pdf"
-			(at 176.53 39.37 0)
+		(uuid "ee78aac1-923c-43fc-a584-299190711018")
+		(property "Reference" "#PWR010"
+			(at 93.98 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,8 +3657,40 @@
 				)
 			)
 		)
-		(property "Description" "7.5A 20V LDO Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
-			(at 176.53 39.37 0)
+		(property "Value" "+5V"
+			(at 93.98 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4249,18 +3701,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d6e9d20-bc3e-4653-9cce-f863ec185006")
-		)
-		(pin "2"
-			(uuid "bc5b5647-1730-4445-b200-bf440b110354")
-		)
-		(pin "3"
-			(uuid "1a6c24a9-5848-4b6d-8c7a-43c9f195ec06")
+			(uuid "12bc292e-208b-498e-8df6-471dc18fe2f3")
 		)
 		(instances
 			(project "ch341-to-mfi-chip"
 				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
-					(reference "U2")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 53.34 86.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f55ea0b7-20de-4dfa-9b05-7a2dba455dc9")
+		(property "Reference" "#PWR08"
+			(at 53.34 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.34 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ba62e79-2bf6-479a-b0f3-c11f4bc04c87")
+		)
+		(instances
+			(project "ch341-to-mfi-chip"
+				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8e26f71-3f2e-4f7a-80e0-da6f7a19724e")
+		(property "Reference" "#PWR04"
+			(at 152.4 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b71a3691-1f93-44d7-be8a-f815f2b3bd4d")
+		)
+		(instances
+			(project "ch341-to-mfi-chip"
+				(path "/5362e1ec-2bd0-4b31-b6ed-5b973739ecf7"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
